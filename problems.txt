@@ -1,0 +1,5 @@
+1. Background image transition - couldnt do it using CSS3 (Using animations and Keyframes) - Will try to implement that.
+2. Parent - opacity
+   Child - no Opacity.. couldnt implement child with no opacity inside parent having opacity..struggled with z-index i guess..will try to get that correct..
+
+3. 

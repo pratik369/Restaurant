@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+
+    <title>Welcome to My Restaurant</title>
+
+</head>
+
+
+
+<body>
+
+    <div class="background-image toggle-image first-image"></div>
+    <div class="background-image toggle-image second-image"></div>
+    <div class="background-image toggle-image third-image"></div>
+    <div class="background-image toggle-image forth-image"></div>
+    <div class="background-image toggle-image fifth-image"></div>
+    <div class="background-image toggle-image sixth-image show"></div>
+
+    <header class="navbar navbar-custom">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Restaurant</a>
+            </div>
+            <div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html"><span class="glyphicon glyphicon-glass"></span> Reservation Page</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </header>
+
+
+
+
+    <div class="vertical-tabs col-sm-12" >
+
+        <div>
+
+            <!-- Navigation Buttons -->
+            <div class="col-sm-3">
+                <ul class="nav nav-tabs nav-stacked" id="myTabs">
+                    <li class="active"><a href="#home">Profile</a></li>
+                    <li><a href="#reservation">Reservations</a></li>
+                    <li><a href="#seating">Seating Arrangements</a></li>
+                    <li><a href="#settings">Settings</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+
+            <!-- Content -->
+            <div class="col-sm-9">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="home">
+
+                        <h2> Profile</h2>
+
+
+                            <div class="col-md-8 col-xs-10 center">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+
+                                            <a href="#" class="btn btn-primary btn-xs pull-right"> Edit Profile</a> <br>
+                                            <div class="col-xs-12 col-sm-4 text-center">
+                                                <img src="images/profile.jpg" alt="" class="center-block img-circle img-responsive">
+                                            </div><!--/col-->
+                                            <div class="col-xs-12 col-sm-8">
+                                                <h2>Pratik Patel</h2>
+                                                <p><strong>Contact No: </strong> 201-313-6984 </p>
+                                                <p><strong>Address: </strong> Mountain View, Ca </p>
+                                            </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                    </div>
+
+
+                    <div class="tab-pane" id="reservation">
+
+                        <h2> Reservations </h2>
+
+                            <div >
+                                <div class="col-sm-6 center">
+                                    <div class="imaginary_container">
+                                        <div class="input-group stylish-input-group">
+                                            <input type="text" class="form-control"  placeholder="Search Reservations" >
+                                                <span class="input-group-addon">
+                                                    <button type="submit">
+                                                        <span class="glyphicon glyphicon-search"></span>
+                                                    </button>
+                                                </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-sm-12">
+                                <table class="table-responsive">
+                                    <thead>
+
+                                    <tr>
+
+                                        <th>Confirmation Number</th>
+                                        <th>First Name</th>
+                                        <th>Date</th>
+                                        <th>Size</th>
+                                        <th>Action</th>
+
+                                    </tr>
+
+                                    </thead>
+
+                                    <tbody>
+
+                                    <tr>
+
+                                        <td>1</td>
+                                        <td>John</td>
+                                        <td>06/07/2015</td>
+                                        <td>4</td>
+                                        <td> <button class="btn btn-primary detail-btn"><span class="glyphicon glyphicon-edit"></span>  Detail</button> </td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>2</td>
+                                        <td>Peter</td>
+                                        <td>06/05/2015</td>
+                                        <td>4</td>
+                                        <td> <button class="btn btn-primary detail-btn"><span class="glyphicon glyphicon-edit"></span> Detail</button> </td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>3</td>
+                                        <td>John</td>
+                                        <td>06/02/2015</td>
+                                        <td>2</td>
+                                        <td> <button class="btn btn-primary detail-btn"><span class="glyphicon glyphicon-edit"></span> Detail</button> </td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>3</td>
+                                        <td>John</td>
+                                        <td>06/02/2015</td>
+                                        <td>2</td>
+                                        <td> <button class="btn btn-primary detail-btn"><span class="glyphicon glyphicon-edit"></span> Detail</button> </td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>4</td>
+                                        <td>John</td>
+                                        <td>06/02/2015</td>
+                                        <td>2</td>
+                                        <td> <button class="btn btn-primary detail-btn"><span class="glyphicon glyphicon-edit"></span> Detail</button> </td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>5</td>
+                                        <td>John</td>
+                                        <td>06/02/2015</td>
+                                        <td>2</td>
+                                        <td> <button class="btn btn-primary detail-btn"><span class="glyphicon glyphicon-edit"></span> Detail</button> </td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>6</td>
+                                        <td>John</td>
+                                        <td>06/02/2015</td>
+                                        <td>2</td>
+                                        <td> <button class="btn btn-primary detail-btn"><span class="glyphicon glyphicon-edit"></span> Detail</button> </td>
+
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+
+
+                    </div>
+
+
+                    <div class="tab-pane" id="seating">
+                        <ul class="nav nav-tabs nav-justified" id="resTabs">
+                            <li class="active">
+                                <a href="#table-reservation" data-toggle="tab">
+                                    <span class="tab-text"> Tabular Arrangements</span>
+                                </a>
+
+                            </li>
+
+                            <li>
+                                <a href="#graphical-reservation" data-toggle="tab">
+                                    <span class="tab-text"> Graphical Arrangements</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="col-sm-12">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="table-reservation">
+                                <div class="tablelist col-sm-12>">
+
+                                    <table class="table-responsive">
+                                        <thead>
+                                        <tr>
+                                            <th> Table No. </th>
+                                            <th> Table Capacity</th>
+                                            <th> Table Status</th>
+                                            <th> Occupied Since</th>
+                                            <th> Confirmation No</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-danger">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Occupied </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-danger">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Occupied </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr><tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+                                        <tr class="alert-success">
+                                            <td> 1 </td>
+                                            <td> 5 </td>
+                                            <td> Available </td>
+                                            <td> --- </td>
+                                            <td> --- </td>
+                                        </tr>
+
+
+                                        </tbody>
+
+                                    </table>
+
+
+                                </div>
+
+
+
+                                </div>
+                                <div class="tab-pane" id="graphical-reservation">
+
+                                    <div class="col-sm-12">
+
+
+                                        <div class="col-sm-4">
+                                            <div class="square img-rounded">
+                                                <p class="glyphicon glyphicon-ok"></p>
+                                                <p> Table No. 1</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="circle img-circle">
+                                                <p class="glyphicon glyphicon-ok"></p>
+                                                <p> Table No. 2</p>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-sm-4">
+                                            <div class="rectangle img-rounded">
+                                                <p class="glyphicon glyphicon-ok"></p>
+                                                <p> Table No. 3</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                            <div class="square img-rounded">
+                                                <p> Table No. 4</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="circle img-circle">
+                                                <p class="glyphicon glyphicon-ok"></p>
+                                                <p> Table No. 5</p>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="col-sm-4">
+                                            <div class="rectangle img-rounded">
+                                                <p class="glyphicon glyphicon-ok"></p>
+                                                <p> Table No. 6</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                            <div class="square img-rounded">
+                                                <p> Table No. 7</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="circle img-circle">
+                                                <p class="glyphicon glyphicon-ok"></p>
+                                                <p> Table No. 8</p>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="col-sm-4">
+                                            <div class="rectangle img-rounded">
+                                                <p> Table No. 9</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                            <div class="square img-rounded">
+                                                <p> Table No. 7</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="circle img-circle">
+                                                <p class="glyphicon glyphicon-ok"></p>
+                                                <p> Table No. 8</p>
+                                            </div>
+                                        </div>
+
+
+
+
+                                        <div class="col-sm-4">
+                                            <div class="rectangle img-rounded">
+                                                <p> Table No. 9</p>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tab-pane" id="settings">
+
+
+                        <h2> Settings </h2>
+
+                        <div >
+                            <form class="center form-settings form1">
+                                <div>
+                                    <div id="title">
+                                        <h1 class="text-center">Owner Login</h1>
+                                    </div>
+
+
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <span class="glyphicon glyphicon-envelope"></span></span>
+                                        <input type="email" class="form-control" placeholder="Enter Your Email ID" required>
+                                    </div>
+
+                                    <br>
+
+                                    <div class="input-group">
+                                        <span class="input-group-addon"> <span class="glyphicon glyphicon-asterisk"></span></span>
+                                        <input type="password" class="form-control" placeholder="Enter Your Password" required>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <label> <input type="checkbox" > Keep me Signed In </label>
+
+                                        <button type="button" class="btn btn-link">Forgot Password</button>
+
+                                    </div>
+
+                                    <br>
+
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-primary form-control"> Login </button>
+                                    </div>
+
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                    <div class="tab-pane" id="contacts">
+
+                        <h2> Contacts </h2>
+
+                        <div >
+                            <div class="col-sm-6 center">
+                                <div class="imaginary_container">
+                                    <div class="input-group stylish-input-group">
+                                        <input type="text" class="form-control"  placeholder="Search Contacts" >
+                                                <span class="input-group-addon">
+                                                    <button type="submit">
+                                                        <span class="glyphicon glyphicon-search"></span>
+                                                    </button>
+                                                </span>
+
+                                    </div>
+                                    <a href="#" class="btn btn-primary btn-xs center">+ Add Contact</a> <br>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row col-md-6 center" id="contacts-table">
+
+
+                            <table class="table table-striped custab" >
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Contact Number</th>
+                                    <th class="text-center">Action</th>
+                                </tr>
+                                </thead>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Pratik</td>
+                                    <td>201-313-6984</td>
+                                    <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Pratik</td>
+                                    <td>201-313-6984</td>
+                                    <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Pratik</td>
+                                    <td>201-313-6984</td>
+                                    <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Pratik</td>
+                                    <td>201-313-6984</td>
+                                    <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Pratik</td>
+                                    <td>201-313-6984</td>
+                                    <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Pratik</td>
+                                    <td>201-313-6984</td>
+                                    <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Pratik</td>
+                                    <td>201-313-6984</td>
+                                    <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Pratik</td>
+                                    <td>201-313-6984</td>
+                                    <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Pratik</td>
+                                    <td>201-313-6984</td>
+                                    <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Pratik</td>
+                                    <td>201-313-6984</td>
+                                    <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Pratik</td>
+                                    <td>201-313-6984</td>
+                                    <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Pratik</td>
+                                    <td>201-313-6984</td>
+                                    <td class="text-center"><a class='btn btn-info btn-xs' href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a> <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a></td>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+
+
+    </body>
+
+
+
+</html>

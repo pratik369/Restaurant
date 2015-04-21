@@ -1,3 +1,300 @@
-.bs-example{
-    margin: 200px;
+.navbar-custom {
+    background-color:white;
+    filter:alpha(opacity=60);
+    color:#ffffff;
+    opacity: 0.85;
+    border-radius:0;
 }
+
+
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus a:hover {
+     text-decoration: none;
+     background-color: white;
+ }
+
+.navbar-custom .navbar-brand {
+    color: #717477;
+    font-weight: 900;
+
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: #717477;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 900;
+}
+
+
+body{
+    height: auto;
+    width: auto;
+}
+.form1{
+    background-color: #ffffff;
+    opacity:0.85;
+    filter:alpha(opacity=60);
+    margin-left: auto;
+    margin-right: 15px;
+    margin-bottom: auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    max-width: 380px;
+    min-width: 150px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 1);
+}
+
+.panel{
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 1);
+}
+
+.panel-body {
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+}
+
+.form-settings {
+    margin-top: 50px !important;
+}
+
+
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #FFFDFD;
+    cursor: default;
+    background-color: #565151;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DDD #DDD transparent;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+}
+
+.detail-btn{
+    width: 90%;
+    padding: 0% ;
+}
+
+.imaginary_container{
+    margin-top: 1%;
+    margin-bottom: 10%;
+
+}
+
+.center {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+
+}
+
+
+.stylish-input-group .input-group-addon{
+    background-color: #0f0f0f;
+    opacity: 0.85;
+    border-color: #080808;
+    border-left: 1px solid #080808;;
+}
+.stylish-input-group .form-control{
+    background-color: #0f0f0f;
+    color: white;
+    border-right:0;
+    box-shadow:0 0 0;
+    border-color: #080808;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+    color: white;
+}
+
+.square{
+    margin: 50px 10px 10px 10px;
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+}
+
+
+.rectangle{
+    margin: 50px 10px 10px 10px;
+    width: 50px;
+    height: 100px;
+    background-color: dodgerblue;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 50px 10px 10px 10px;
+    background-color: orangered;
+
+}
+
+#graphical-reservation{
+    width: auto;
+    height: 500px;
+    overflow: scroll;
+}
+
+#table-reservation {
+    width: auto;
+    height: 500px;
+    overflow: scroll;
+}
+
+#contacts-table {
+    border: 1px solid black;
+    width: auto;
+    height: 400px;
+    overflow: scroll;
+
+}
+
+
+
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 20px;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+}
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+}
+
+
+.table-striped th {
+    border-collapse: collapse;
+    padding: 3px;
+    text-align: center;
+}
+
+
+.table-responsive{
+    margin-top: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-responsive th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    text-align: center;
+}
+
+.table-responsive td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    text-align: center;
+}
+
+.vertical-tabs {
+    background-color: #ffffff;
+    opacity:0.85;
+    filter:alpha(opacity=60);
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    height: auto;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 1);
+
+}
+
+.nav-stacked {
+    padding-right: 10px;
+    border-right: 2px solid dodgerblue;
+}
+
+/* Basic background image styling. */
+.background-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Styles for the alternating / transition effect. */
+.toggle-image {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Styles for the specific images. */
+.first-image {
+    background-image: url('http://localhost:63342/Restaurant/images/404630.jpg');
+    z-index: -3;
+    opacity: 0;
+}
+
+.second-image {
+    background-image: url('http://localhost:63342/Restaurant/images/404961.jpg');
+    z-index: -2;
+    opacity: 0;
+}
+
+.third-image {
+    background-image: url('http://localhost:63342/Restaurant/images/415009.jpg');
+    z-index: -1;
+    opacity: 0;
+}
+
+.forth-image {
+    background-image: url('http://localhost:63342/Restaurant/images/458806.jpg');
+    z-index: -1;
+    opacity: 0;
+}
+
+.fifth-image {
+    background-image: url('http://localhost:63342/Restaurant/images/498617.jpg');
+    z-index: -1;
+    opacity: 0;
+}
+
+.sixth-image {
+    background-image: url('http://localhost:63342/Restaurant/images/517780.jpg');
+    z-index: -1;
+    opacity: 0;
+}
+
+.first-image.show {
+    opacity: 1;
+}
+
+.second-image.show {
+    opacity: 1;
+}
+
+.third-image.show {
+    opacity: 1;
+}
+
+.forth-image.show {
+    opacity: 1;
+}
+
+.fifth-image.show {
+    opacity: 1;
+}
+
+.sixth-image.show {
+    opacity: 1;
+}
+
