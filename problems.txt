@@ -1,5 +1,8 @@
-1. Background image transition - couldnt do it using CSS3 (Using animations and Keyframes) - Will try to implement that.
+
+Following 2 problems, I couldnt solve and 3rd i havent tried yet.
+
+1. Background image transition - couldnt do it using CSS3 (Using animations and Keyframes) - Will try to implement that and remove javascript.
 2. Parent - opacity
    Child - no Opacity.. couldnt implement child with no opacity inside parent having opacity..struggled with z-index i guess..will try to get that correct..
 
-3. 
+3. Media Queries - Yet to implement. will also do that.
